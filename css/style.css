@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Rosarivo';
+    src: url('../fonts/Rosarivo-Regular.woff2') format('woff2'),
+        url('../fonts/Rosarivo-Regular.woff') format('woff'),
+        url('../fonts/Rosarivo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rozha One';
+    src: url('../fonts/RozhaOne-Regular.woff2') format('woff2'),
+        url('../fonts/RozhaOne-Regular.woff') format('woff'),
+        url('../fonts/RozhaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
