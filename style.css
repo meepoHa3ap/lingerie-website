@@ -158,7 +158,8 @@ h1{
     margin-bottom: 20px;
 }
 
-.Button-Nav {
+.button-nav {
+    
     font-family: Rokkitt, sans-serif;
     border-radius: 30px;
     border: 2px solid #6743AC;
@@ -235,4 +236,72 @@ h1{
     line-height: 100%;
     margin-left: 0;
     letter-spacing: 0%;
+}
+
+.main-1 {
+    position: relative;
+    max-width: var(--container-width);
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    min-height: 787px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.model-text {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.model-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.model img {
+    margin-top: 242px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.model-text h2 {
+    color: #000000AB;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    margin-top: 380px;
+}
+
+.model-text h1 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.model-text p {
+    font-family: 'Rosarivo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.button-nav-1 {
+    font-family: Rokkitt, sans-serif;
+    border-radius: 30px;
+    border: 2px solid #6743AC;
+    padding: 10px 70px;
+    cursor: pointer;
+    color: #6743AC;
 }
